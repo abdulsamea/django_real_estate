@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
+        'NAME': 'django_sample',
         'USER':'postgres',
         'PASSWORD':'123456',
-        'HOST':'localhost'
+        'HOST':'34.69.152.154'
     }
 }
 
