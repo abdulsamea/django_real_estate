@@ -1,1 +1,1 @@
-web: gunicorn django_real_estate.wsgi --log-file -
+web: gunicorn btre.wsgi --log-file -
